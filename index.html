@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>multi language website</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="wrapper">
+        <div class="logo">
+          <h2>random</h2>
+        </div>
+        <nav>
+          <ul>
+            <li data-lng="home">Home</li>
+            <li data-lng="about">About</li>
+            <li data-lng="contactus">Contact us</li>
+            <li data-lng="fqa">FQA</li>
+          </ul>
+        </nav>
+        <select name="" id="">
+          <option value="en" selected data-lng="english">English</option>
+          <option value="ar" data-lng="arabic">Arabic</option>
+        </select>
+      </div>
+      </div>
+  </header>
+  <main>
+    <div class="hero-section">
+      <div class="container">
+        <div class="left">
+          <h1 data-lng="mainTitle">
+            This Trash WebSite
+          </h1>
+          <p data-lng="mainP">You better sign in now or!</p>
+          <button data-lng="btn">Sign In</button>
+        </div>
+        <div class="right">
+          <div class="div" data-lng="placeholder">placeholder</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./translations.js" type="module"></script>
+</body>
+</html>
